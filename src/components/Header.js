@@ -7,7 +7,6 @@ const navigation = [
   { name: 'About Me', href: '#about', current: true },
   { name: 'Skills', href: '#skills', current: false },
   { name: 'Projects', href: '#projects', current: false },
-  { name: 'Resume', href: '#resume', current: false },
   { name: 'Contact Me', href: '#contact', current: false },
 ]
 
@@ -38,13 +37,13 @@ export default function Header() {
                   <img
                     className="block h-8 w-auto lg:hidden rounded-lg"
                     src="https://images.unsplash.com/photo-1678556173409-5f89546d65a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1197&q=80"
-                    alt="Your Company"
+                    alt="Yassar Rich"
                   />
                   
                   <img
                     className="hidden h-8 w-auto lg:block"
                     src="https://images.unsplash.com/photo-1678556173409-5f89546d65a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1197&q=80"
-                    alt="Your Company"
+                    alt="Yassar Rich"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -58,7 +57,7 @@ export default function Header() {
                       to={item.href}
                       spy={true}
                       smooth={true}
-                      offset={-100}
+                      offset={-20}
                       duration={500}
                       className={classNames(
                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',

@@ -2,7 +2,7 @@
 
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import React from "react";
-import { projects } from "./Data";
+import { projects } from "../Data";
 
 export default function Projects() {
   return (

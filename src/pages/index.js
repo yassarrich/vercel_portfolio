@@ -1,18 +1,13 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {
-  AiFillLinkedin, 
-  AiFillGithub
-} from "react-icons/ai";
-import Image from "next/image";
 import { useState } from 'react';
-import Header from '@/Header';
-import Footer from '@/Footer';
-import Quote from '@/Quote';
-import About from '@/About';
-import Skills from '@/Skills';
-import Projects from '@/Projects';
-import Contact from '@/Contact';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Quote from '@/components/Quote';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   const[darkMode, setDarkMode] = useState(false);
@@ -27,7 +22,7 @@ export default function Home() {
       <Header></Header>
       <Quote></Quote>
       
-      <main className=" bg-black px-10  dark:bg-gray-900">
+      <main className=" bg-grey-100 px-10  dark:bg-gray-900">
         <p className=' text-black dark:text-white'><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}className='cursor-pointer text-2xl text-black dark:text-white'/>Easter Egg</p>
         
       <div id="#about">
