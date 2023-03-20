@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages/root -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,7 +21,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "vercel": "^28.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
