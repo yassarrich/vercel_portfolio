@@ -1,7 +1,7 @@
 // src/components/About.js
 
 import React from "react";
-import photo from '../public/Prismatic-Code-Head.png';
+
 import {
   AiFillLinkedin, 
   AiFillGithub

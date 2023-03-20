@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import headshot from "/Users/yassarrich/Desktop/newPortfolio/my-app/public/headshot.jpg";
+import {Link} from 'react-scroll'
 
 const navigation = [
   { name: 'About Me', href: '#about', current: true },
@@ -48,19 +48,27 @@ export default function Header() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
+               
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+
+                  <Link
+                      key={item.name}
+                      activeClass="active"
+                      to={item.href}
+                      spy={true}
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                      className={classNames(
+                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'rounded-md px-3 py-2 text-sm font-medium'
+                      )}
+                      aria-current={item.current ? 'page' : undefined}
+                    >
+                      {item.name}</Link>
+                     
+
                     ))}
                   </div>
                 </div>
