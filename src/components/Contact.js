@@ -45,12 +45,12 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-green-500  leading-relaxed">
-                yassarrich@email.com
+                yassarrich@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="">786-731-5465</p>
+              <p className="text-white">786-731-5465</p>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="leading-relaxed mb-5 text-white">
             I am always eager to learn and expand my horizons, Please don't hesitate to reach out to me if you have any opportunities or ideas for collaboration.
           </p>
           <div className="relative mb-4">

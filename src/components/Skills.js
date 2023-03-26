@@ -2,14 +2,14 @@ import { CheckBadgeIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 import React from "react";
 
 const skills= [
-    "HTML, CSS, JS", 
-    "Python",
+    "HTML and CSS", 
+    "Javascript",
     "C++",
+    "Python",
     "React",
-    "MongoDB",
+    "TailwindCSS",
+    "Databases",
     "NodeJs",
-    "Express",
-    "Tailwind"
 ];
 
 export default function Skills() {
@@ -17,12 +17,12 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-        <CpuChipIcon className="w-10 inline-block mb-4" />
+        <CpuChipIcon className="w-10 inline-block mb-4 text-white" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Over the last few years, I have honed my skills in creating modern, scalable web applications that leverage the latest technology. My skills extend across a wide range of programming languages in order to keep up with growing advancements in the field.
+          <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            During my time at university, I have continually developed my technical skills. I have undertaken personal projects that enable me to further refine my abilities and prepare for a career in the industry.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

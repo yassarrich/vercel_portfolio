@@ -13,14 +13,14 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Yassar
+            Hi, I'm Yassar Rich
             <br className="hidden lg:inline-block" /> 
           </h1>
           
-          <p className="mb-8 leading-relaxed">
-          Thank you for taking the time to view my website. My name is Yassar Rich and I am a student currently pursuing a degree in Computer Science.
+          <p className="mb-8 leading-relaxed text-white">
+          Thank you for taking the time to visit my website. As a Computer Science student at Florida State University, I am passionate about leveraging my skills to develop cutting-edge software solutions for various needs.
           </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-white">
           <a href='https://www.linkedin.com/in/yassarrich/'>
             <AiFillLinkedin />
           </a>

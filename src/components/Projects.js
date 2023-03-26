@@ -6,15 +6,15 @@ import { projects } from "../../public/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-black body-font">
+    <section id="projects" className="text-gray-400 bg-black body-font rounded-xl">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Personal Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            
+            Feel free to contact me regarding the details of my projects below.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -35,6 +35,7 @@ export default function Projects() {
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
+                  <h3 className="text-red-300">{project.status}</h3>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
