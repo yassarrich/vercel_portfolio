@@ -3,6 +3,7 @@
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { projects } from "../../public/data";
+import {AiFillGithub} from "react-icons/ai";
 
 export default function Projects() {
   return (
@@ -19,6 +20,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
+            <>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -43,6 +45,13 @@ export default function Projects() {
                 </div>
               </div>
             </a>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href={project.github} className='text-2xl mt-10'>
+            <AiFillGithub className="text-3xl inline mr-2 pb-1" />
+            Source Code
+          </a>
+            </>
           ))}
         </div>
       </div>
