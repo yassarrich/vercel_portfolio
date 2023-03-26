@@ -14,7 +14,7 @@ export default function Projects() {
             Personal Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Feel free to contact me regarding the details of my projects below.
+            Feel free to contact me regarding the details of my projects and the work I've done.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
