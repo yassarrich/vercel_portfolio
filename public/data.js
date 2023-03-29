@@ -27,18 +27,9 @@ export const projects = [
       subtitle: "C++",
       description:
         "This project implements a hash table abstract data type, this program is a secure password server and provides user interface in order to manage the different users and password.",
-      image: "https://static.packt-cdn.com/products/9781789133646/graphics/assets/23375dec-001c-4064-9278-19da5d745827.png",
+      image: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       link: "https://github.com/yassarrich/passwordManager",
       github: "https://github.com/yassarrich/passwordManager"
     },
-    {
-      title: "Postfix to Infix Converter using Binary Tree",
-      status:"Completed",
-      subtitle: "C++",
-      description:
-        "This project converts between Postfix to infix notation using a binary tree, this is meant to develop an understanding of how to visualize a binary tree and its applications",
-      image: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "",
-      github: ""
-    },
+
   ];
