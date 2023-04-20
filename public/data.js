@@ -18,7 +18,7 @@ export const projects = [
       description:
         "Full Stack web app hosted on a Ubuntu Server using Nginx. This project is my introduction to the software development life cycle, Currently working on adding React frontend to display news article more aesthetically",
       image: "https://images.ctfassets.net/lzny33ho1g45/1myGI9Ws1d0hbffMs6BcnD/01229f11aae0fc021bc8a8eb0c28ba52/Best_news_apps_hero.png?w=1520&fm=jpg&q=30&fit=thumb&h=760",
-      link: "https://pytech.news",
+      link: "https://pytech-news.herokuapp.com/",
       github: "https://github.com/yassarrich/pytech.news"
     },
     {
