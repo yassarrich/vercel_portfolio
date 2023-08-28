@@ -36,13 +36,13 @@ export default function Header() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden rounded-lg"
-                    src="https://images.unsplash.com/photo-1678556173409-5f89546d65a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1197&q=80"
+                    src="/imgonline-com-ua-resizeMPXaxGSc3T34nLH.jpg"
                     alt="Yassar Rich"
                   />
                   
                   <img
                     className="hidden h-8 w-auto lg:block"
-                    src="https://images.unsplash.com/photo-1678556173409-5f89546d65a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1197&q=80"
+                    src="/imgonline-com-ua-resizeMPXaxGSc3T34nLH.jpg"
                     alt="Yassar Rich"
                   />
                 </div>
@@ -82,7 +82,7 @@ export default function Header() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1678555086821-8ddce31c6cce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        src="/headshot.jpg"
                         alt=""
                       />
                     </Menu.Button>

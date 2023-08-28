@@ -22,7 +22,7 @@ export const projects = [
       github: "https://github.com/yassarrich/pytech.news"
     },
     {
-      title: " Secure User and Password Manager",
+      title: " User and Password Manager",
       status:"Completed",
       subtitle: "C++",
       description:

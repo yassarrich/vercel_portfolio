@@ -48,7 +48,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded-lg"
             alt="hero"
-            src="https://images.unsplash.com/photo-1678560722965-ab56efb3550b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=935&q=80"
+            src="/1_fuLw6zRUiMZI63hoz-VDXg.png"
           />
         </div>
       </div>
