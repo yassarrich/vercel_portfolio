@@ -10,7 +10,7 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 
 export default function Home() {
-  const[darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div>
       <Head>
@@ -21,27 +21,28 @@ export default function Home() {
       </Head>
       <Header></Header>
       <Quote></Quote>
+
+      <main className="max-w-6xl mx-auto bg-gray-900 px-10">
       
-      <main className=" bg-gray-900 px-10">
-    
-      <div id="#about">
-       <About ></About>
-       </div>
+      
+        <div id="#about">
+          <About></About>
+        </div>
 
-      <div id="#skills">
-      <Skills></Skills>
-      </div>
+        <div id="#skills">
+          <Skills></Skills>
+        </div>
 
-      <div id="#projects">
-      <Projects></Projects>
-      </div>
+        <div id="#projects">
+          <Projects></Projects>
+        </div>
 
-      <div id="#contact">
-      <Contact></Contact>
-      </div>   
+        <div id="#contact">
+          <Contact></Contact>
+        </div>
       </main>
       <Footer></Footer>
     </div>
-
-  )
+  );
 }
+

@@ -18,7 +18,7 @@ export default function Projects() {
             Feel free to contact me regarding the details of my projects and the work I've done.
           </p>
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap ml-10 pl-10">
           {projects.map((project) => (
             <>
             {/* <a
@@ -59,11 +59,11 @@ export default function Projects() {
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{project.description}</p>
         <h4 class="mb-2 text-xl font-bold tracking-tight text-gray-900">Technologies Used</h4>
         <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Test</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Test</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Test</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{project.tech[0]}</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{project.tech[1]}</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{project.tech[2]}</span>
   </div>
-        <h2 className="tracking-widest text-sm title-font font-medium text-grey-400 mb-1">{project.subtitle}</h2>
+        <h2 className="tracking-widest text-sm title-font font-medium text-grey-400 mb-1">Source Code</h2>
         <a target="_blank"
               rel="noopener noreferrer"
               href={project.github} className='text-xl'>
