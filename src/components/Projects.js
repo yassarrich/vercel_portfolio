@@ -8,7 +8,7 @@ import {AiFillGithub} from "react-icons/ai";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 body-font rounded-xl">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -18,39 +18,10 @@ export default function Projects() {
             Feel free to contact me regarding the details of my projects and the work I've done.
           </p>
         </div>
-        <div className="flex flex-wrap ml-10 pl-10">
+        <div className="flex flex-wrap justify-center">
           {projects.map((project) => (
             <>
-            {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
-              </div>
-            </a>
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href={project.github} className='text-2xl mt-10'>
-            <AiFillGithub className="text-3xl inline mr-2 pb-1" />
-            Source Code
-          </a> */
+            {
           <a href={project.link} target="_blank" rel="noopener noreferrer" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 my-4">
     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={project.image} alt=""></img>
     <div class="flex flex-col justify-between p-4 leading-normal">
