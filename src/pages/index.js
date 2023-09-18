@@ -36,9 +36,9 @@ export default function Home() {
           <Projects></Projects>
         </div>
 
-        <div id="#contact">
+        {/* <div id="#contact">
           <Contact></Contact>
-        </div>
+        </div> */}
       </main>
       <Footer></Footer>
     </div>

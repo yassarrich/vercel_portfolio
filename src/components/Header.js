@@ -34,17 +34,7 @@ export default function Header() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-8 w-auto lg:hidden rounded-lg"
-                    src="/imgonline-com-ua-resizeMPXaxGSc3T34nLH.jpg"
-                    alt="Yassar Rich"
-                  />
-                  
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="/imgonline-com-ua-resizeMPXaxGSc3T34nLH.jpg"
-                    alt="Yassar Rich"
-                  />
+                 <h1>Portfolio</h1>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                
