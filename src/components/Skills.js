@@ -22,7 +22,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            During my time at university, I have continually developed my technical skills. I have undertaken personal projects that enable me to further refine my abilities and prepare for a career in the industry.
+          Throughout my time in university, I've actively worked on improving my technical skills. By taking on personal projects that interest me, I've managed to refine my abilities and better prepare myself for a career in the industry using these technologies...
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

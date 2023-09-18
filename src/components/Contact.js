@@ -8,14 +8,14 @@ export default function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const response = await fetch('', {
+      const response = await fetch('/api/sendMessage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ name, email, message }),
       });
-
+  
       if (response.status === 200) {
         alert('Message sent!');
       } else {
@@ -49,10 +49,6 @@ export default function Contact() {
               <a className="text-green-500  leading-relaxed">
                 yassarrich@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="text-white">786-731-5465</p>
             </div>
           </div>
         </div>

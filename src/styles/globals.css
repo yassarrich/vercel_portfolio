@@ -108,3 +108,26 @@ a {
   font-family: 'burtons';
   src: url('/Users/yassarrich/Desktop/newPortfolio/my-app/public/Burtons.otf');
 }
+
+@keyframes pulse-gradient {
+  0% {
+    background: linear-gradient(
+      90deg,
+      rgba(66, 153, 225, 1) 0%,
+      rgba(75, 192, 183, 1) 50%,
+      rgba(153, 102, 255, 1) 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      90deg,
+      rgba(153, 102, 255, 1) 0%,
+      rgba(75, 192, 183, 1) 50%,
+      rgba(66, 153, 225, 1) 100%
+    );
+  }
+}
+
+.pulse-gradient {
+  animation: pulse-gradient 2s infinite;
+}
