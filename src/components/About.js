@@ -34,27 +34,33 @@ export default function About() {
           Welcome to my website, I am a Computer Science Student at Florida State University who is passionate about leveraging my skills to develop cutting-edge software solutions for various needs.</p>
           
             <div className="text-5xl flex justify-center gap-6 py-3 text-white">
-          <a href='https://www.linkedin.com/in/yassarrich/'>
+          <a target="_blank" rel="noopener noreferrer"href='https://www.linkedin.com/in/yassarrich/'>
             <AiFillLinkedin />
           </a>
-          <a href='https://github.com/yassarrich'>
+          <a target="_blank" rel="noopener noreferrer" href='https://github.com/yassarrich'>
             <AiFillGithub />
           </a>
 
           </div>
           
           <div className="flex justify-center">
-          <Link
+          
+          {/* <Link
                       activeClass="active"
-                      to='#contact'
+                      to='/https://www.linkedin.com/in/yassarrich/'
                       spy={true}
                       smooth={true}
                       offset={-20}
                       duration={500}
                       className='mt-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
                     >
-                    Work With Me </Link>
-        
+                    Work With Me </Link> */}
+        <a
+          href="https://www.linkedin.com/in/yassarrich/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='mt-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
+        >Work With Me</a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
