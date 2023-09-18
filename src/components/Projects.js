@@ -9,16 +9,14 @@ export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 body-font rounded-xl">
       <div className="container mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Personal Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Feel free to contact me regarding the details of my projects and the work I've done.
-          </p>
+          
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center mt-4">
           {projects.map((project) => (
             <>
             {
@@ -44,6 +42,11 @@ export default function Projects() {
           }
             </>
           ))}
+        </div>
+        <div className="flex flex-col w-full mt-5">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Feel free to contact me regarding the details of my projects and the work I've done.
+          </p>
         </div>
       </div>
     </section>

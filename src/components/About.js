@@ -20,7 +20,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed text-white">
           Thank you for taking the time to visit my website. As a Computer Science student at Florida State University, I am passionate about leveraging my skills to develop cutting-edge software solutions for various needs.
           </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-white">
+            <div className="text-5xl flex justify-center gap-6 py-3 text-white">
           <a href='https://www.linkedin.com/in/yassarrich/'>
             <AiFillLinkedin />
           </a>

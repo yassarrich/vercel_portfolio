@@ -14,6 +14,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.16",
+    "@sendgrid/mail": "^7.7.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "heroicons-react": "^1.4.1",
