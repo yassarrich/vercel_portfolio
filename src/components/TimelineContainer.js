@@ -3,7 +3,6 @@ import TimelineItem from "../components/TimelineItem.js"
 import { BriefcaseIcon} from "@heroicons/react/24/outline";
 
 const Timeline = () => {
-    console.log(timelineData)
     if (!timelineData || timelineData.length === 0) {
       return <div>No data to display</div>;
     }
