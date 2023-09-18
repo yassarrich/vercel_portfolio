@@ -26,7 +26,7 @@ export default function About() {
       wrapper="span"
       speed={35}
       style={{ fontSize: '2em', display: 'inline-block' }}
-      repeat={5}
+      repeat={Infinity}
     />
         <br className="hidden lg:inline-block" /> 
           </h1>
