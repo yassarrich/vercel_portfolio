@@ -45,7 +45,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-col w-full mt-5">
           <p className="lg:w-2/3 mx-auto mb-10 leading-relaxed text-base">
-            Feel free to contact me regarding the details of my projects at yassarrich@gmail.com
+            Feel free to contact me regarding the details of my projects at yassarrich@gmail.com.
           </p>
         </div>
       </div>
