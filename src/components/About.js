@@ -16,11 +16,11 @@ export default function About() {
           <h1 className='title-font pt-5 sm:text-xl text-l mb-2 font-medium text-white '>
           <TypeAnimation
       sequence={[
-              'Hi, im Yassar',
+              'Hi, I\'m Yassar.',
               2000, // wait 1s before replacing "Mice" with "Hamsters"
               'Hi,',
               1000,
-              'Hi, im Yassar',
+              'Hi, I\'m Yassar.',
               2000
             ]}
       wrapper="span"
@@ -31,7 +31,7 @@ export default function About() {
         <br className="hidden lg:inline-block" /> 
           </h1>
           <p className="mb-1 leading-relaxed text-white">
-          Welcome to my website, I am a Computer Science Student at Florida State University who is passionate about leveraging my skills to develop cutting-edge software solutions for various needs.</p>
+          Welcome to my website. I am a Computer Science Student at Florida State University who is passionate about leveraging my skills to develop cutting-edge software solutions for various needs.</p>
           
             <div className="text-5xl flex justify-center gap-6 py-3 text-white">
           <a target="_blank" rel="noopener noreferrer"href='https://www.linkedin.com/in/yassarrich/'>
