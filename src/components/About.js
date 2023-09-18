@@ -2,6 +2,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import React from "react";
 import {Link} from 'react-scroll'
+
 import {
   AiFillLinkedin, 
   AiFillGithub
@@ -33,13 +34,15 @@ export default function About() {
           <p className="mb-1 leading-relaxed text-white">
           Welcome to my website. I am a Computer Science Student at Florida State University who is passionate about leveraging my skills to develop cutting-edge software solutions for various needs.</p>
           
-            <div className="text-5xl flex justify-center gap-6 py-3 text-white">
+        <div className="flex justify-center gap-5 py-3 text-white">
+          <div className="text-5xl">
           <a target="_blank" rel="noopener noreferrer"href='https://www.linkedin.com/in/yassarrich/'>
             <AiFillLinkedin />
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href='https://github.com/yassarrich'>
+          </a></div>
+          <div className="text-5xl">
+          <a className="mr-2"target="_blank" rel="noopener noreferrer" href='https://github.com/yassarrich'>
             <AiFillGithub />
-          </a>
+          </a></div>
 
           </div>
           
@@ -56,9 +59,7 @@ export default function About() {
                     >
                     Work With Me </Link> */}
         <a
-          href="https://www.linkedin.com/in/yassarrich/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/YassarRichResume.pdf" target="_blank" rel="noopener noreferrer"
           className='mt-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
         >View Resume</a>
           </div>
