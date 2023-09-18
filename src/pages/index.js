@@ -8,6 +8,7 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
+import Timeline from '@/components/TimelineContainer'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,7 +28,9 @@ export default function Home() {
         <div id="#about">
           <About></About>
         </div>
-
+        <div id="#experience">
+          <Timeline></Timeline>
+        </div>
         <div id="#skills">
           <Skills></Skills>
         </div>

@@ -18,8 +18,8 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
         <CpuChipIcon className="w-10 inline-block mb-4 text-white" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white ml-10 mb-4">
-            Skills &amp; Technologies
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            Skills
           </h1>
           <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           Throughout my time in university, I've actively worked on improving my technical skills. By taking on personal projects that interest me, I've managed to refine my abilities and better prepare myself for a career in the industry using these technologies...

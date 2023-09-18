@@ -17,11 +17,11 @@ export default function About() {
           <TypeAnimation
       sequence={[
               'Hi, im Yassar',
-              2500, // wait 1s before replacing "Mice" with "Hamsters"
+              2000, // wait 1s before replacing "Mice" with "Hamsters"
               'Hi,',
               1000,
               'Hi, im Yassar',
-              2500
+              2000
             ]}
       wrapper="span"
       speed={35}

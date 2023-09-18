@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 
 const navigation = [
   { name: 'About Me', href: '#about', current: true },
+  { name: 'Experience', href: '#experience', current: false },
   { name: 'Skills', href: '#skills', current: false },
   { name: 'Projects', href: '#projects', current: false },
   { name: 'Contact Me', href: '#contact', current: false },
