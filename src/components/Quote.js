@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Quote = () => (
-  <blockquote className="relative p-4 text-xl italic border-l-4 bg-white text-black border-neutral-500 quote">
+  <blockquote className="relative p-4 text-xl italic border-l-4 bg-white text-black border-neutral-500 quote mb-5">
     
     <p className="">“Educating the mind without educating the heart is no education at all.”</p>
     <div className="flex flex-col items-end">
