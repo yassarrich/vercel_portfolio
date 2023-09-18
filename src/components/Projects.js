@@ -8,7 +8,7 @@ import {AiFillGithub} from "react-icons/ai";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 body-font rounded-xl">
-      <div className="container mx-auto text-center lg:px-40">
+      <div className="container mx-auto text-center pt-10 border-t-[3px] lg:px-40 ">
         <div className="flex flex-col w-full">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
