@@ -59,7 +59,7 @@ export default function About() {
                     >
                     Work With Me </Link> */}
         <a
-          href="/YassarRichResume.pdf" target="_blank" rel="noopener noreferrer"
+          href="/Resume_YassarRich_2023.pdf" target="_blank" rel="noopener noreferrer"
           className='mt-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
         >View Resume</a>
           </div>
