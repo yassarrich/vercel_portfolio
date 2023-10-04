@@ -22,10 +22,9 @@ export default function Home() {
         <link rel="icon" href="/" />
       </Head>
       <Header></Header>
-      <Quote></Quote>
 
       <main className="max-w-6xl mx-auto bg-gray-900 px-10">
-      
+      <Quote></Quote>
         <div id="#about">
           <About></About>
         </div>
@@ -43,8 +42,9 @@ export default function Home() {
         <div id="#contact">
           <Contact></Contact>
         </div>
+        <Footer></Footer>
       </main>
-      <Footer></Footer>
+      
     </div>
     </div>
   );

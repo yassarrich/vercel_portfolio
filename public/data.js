@@ -6,7 +6,7 @@ export const projects = [
         status:"Completed",
         subtitle: "C++",
         description:
-          "This project implements a abstract hash table data type, this program is a secure password server and provides user interface in order to manage the different users and password.",
+          "This project implements a hash table abstract data type, it is a secure password server and provides an interface to manage the different users and password in the command line terminal.",
         image: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         link: "https://github.com/yassarrich/passwordManager",
         github: "https://github.com/yassarrich/passwordManager",

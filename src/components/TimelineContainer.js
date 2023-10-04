@@ -17,7 +17,7 @@ const Timeline = () => {
                 Experience
             </h1>
             <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            A timeline of my work experience.
+            Timeline of my work experience.
             </p>
             <div className="timeline-container">
                 {timelineData.map((data, idx) => (

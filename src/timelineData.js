@@ -2,7 +2,7 @@
 export const timelineData =
     [
     {
-        text: 'B.S in Computer Science at Florida State University.',
+        text: 'B.S in Computer Science with Mathematics minor at Florida State University.',
         date: 'January 2020 - December 2023',
         category: {
             tag: 'FSU',
@@ -24,7 +24,7 @@ export const timelineData =
         }
     },
     {
-        text: 'IT internship at Symetra.',
+        text: 'IT Intern at Symetra.',
         date: 'May 2023 - August 2023',
         category: {
             tag: 'Symetra',
@@ -35,7 +35,7 @@ export const timelineData =
         }
     },
     {
-        text: 'IT Assistant for Legends at the FSU Stadium.',
+        text: 'IT Assistant for Legends Hospitality at the FSU Stadium.',
         date: 'August 2023 - Present',
         category: {
             tag: 'Legends',

@@ -12,7 +12,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col border-t-[3px]  items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-14 md:mb-0 items-center text-center ">
        
           <h1 className='title-font pt-5 sm:text-xl text-l mb-2 font-medium text-white '>
           <TypeAnimation
@@ -32,9 +32,11 @@ export default function About() {
         <br className="hidden lg:inline-block" /> 
           </h1>
           <p className="mb-1 leading-relaxed text-white">
-          Welcome to my website. I am a Computer Science Student at Florida State University who is passionate about leveraging my skills to develop cutting-edge software solutions for various needs.</p>
+          I am a Computer Science student who is passionate about leveraging my skills to develop cutting-edge solutions for various needs.</p>
+          <p className="mb-1 leading-relaxed text-white">
+          I am open to Full-Time Software Developer positions upon completion of my Bachelor's degree in December 2023.</p>
           
-        <div className="flex justify-center gap-5 py-3 text-white">
+        <div className="flex justify-center gap-5 pt-5 text-white">
           <div className="text-5xl">
           <a target="_blank" rel="noopener noreferrer"href='https://www.linkedin.com/in/yassarrich/'>
             <AiFillLinkedin />
@@ -60,7 +62,7 @@ export default function About() {
                     Work With Me </Link> */}
         <a
           href="/Resume_YassarRich_2023.pdf" target="_blank" rel="noopener noreferrer"
-          className='mt-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
+          className='mt-1 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'
         >View Resume</a>
           </div>
         </div>
