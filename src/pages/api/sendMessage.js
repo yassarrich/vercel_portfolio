@@ -1,26 +1,28 @@
 import nodemailer from 'nodemailer';
+import 'dotenv/config';
 
 export default async (req, res) => {
   if (req.method === 'POST') {
     // Destructure the request body
     const { name, email, message } = req.body;
-
+    var obj = JSON.stringify(req.body);
     // Set up Nodemailer transporter, with dummy information
     const transporter = nodemailer.createTransport({
-        host: 'smtp.ethereal.email',
-        port: 587,
+        host: process.env.SMTP_HOST,
+        port: process.env.SMTP_PORT,
+        secure: true,
         auth: {
-            user: 'julia.gleichner79@ethereal.email',
-            pass: 'zVQp2Dma91x3zTGR7E'
+            user: process.env.SMTP_USER,
+            pass: process.env.SMTP_PASS
         }
     });
 
     // Email data
     const mailData = {
-      from: email,
-      to: 'youremail@gmail.com',
-      subject: `Message From ${name}`,
-      text: message,
+      from: process.env.TO_EMAIL,
+      to: process.env.TO_EMAIL,
+      subject: `Message From ${name} Email: ${email}`,
+      text: obj,
       html: `<p>${message}</p>`,
     };
 
