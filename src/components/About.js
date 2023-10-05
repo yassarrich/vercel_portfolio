@@ -34,7 +34,7 @@ export default function About() {
           <p className="mb-3 mt-3 leading-relaxed text-white">
           I'm a Computer Science student who is passionate about leveraging my skills to develop cutting-edge solutions for various needs.</p>
           <p className="mb-1 leading-relaxed text-white">
-          I am open to Full-Time Software Developer positions upon completion of my Bachelor's degree in December 2023.</p>
+          I'm open to Full-Time Software Development positions upon completion of my Bachelor's degree in December 2023.</p>
           
         <div className="flex justify-center gap-5 pt-5 text-white">
           <div className="text-5xl">
@@ -66,11 +66,11 @@ export default function About() {
         >View Resume</a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded-lg"
             alt="hero"
-            src="/1_fuLw6zRUiMZI63hoz-VDXg.png"
+            src="/aboutme.jpg"
           />
         </div>
       </div>
