@@ -4,7 +4,7 @@ import React from "react";
 const skills= [
     "HTML, CSS, and Javascript", 
     "Next.js",
-    "Database (SQL, NoSQL)",
+    "Databases (SQL, NoSQL)",
     "Python",
     "React",
     "Tailwind CSS",
