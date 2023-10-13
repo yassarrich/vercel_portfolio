@@ -18,7 +18,7 @@ export default function Description() {
           </p>
           <br></br>
           <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          My experiences and academic pursuits have allowed me to develop a keen eye for identifying areas where technology can be used enhance how we interact with the world. I envision a future where my contributions to the field extend beyond technical advancements, facilitating an environment where technology serves as a catalyst for growth for all. 
+          My work experience and academic pursuits have allowed me to develop a keen eye for identifying areas where technology can be used to enhance how we interact with the world. I envision a future where my contributions to the field extend beyond technical advancements, facilitating an environment where technology serves as a catalyst for growth to all. 
           </p>
           
         </div>

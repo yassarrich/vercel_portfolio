@@ -26,10 +26,10 @@ export default function Home() {
 
       <main className="max-w-6xl mx-auto bg-gray-900 px-10">
       <Quote></Quote>
-        <div id="#about">
+        <div id="">
           <About></About>
         </div>
-        <div id="#description">
+        <div id="#about">
           <Desc></Desc>
         </div>
         <div id="#experience">
