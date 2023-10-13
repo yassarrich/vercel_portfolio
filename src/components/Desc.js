@@ -11,7 +11,7 @@ export default function Description() {
         <div className="text-center mb-10">
         <UserIcon className="w-10 inline-block mb-4 text-white"></UserIcon>
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            About Me
+            About
           </h1>
           <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           In a world increasingly shaped by technology, my journey in computer science has been driven by a desire to understand its impact on our lives. As a first-generation college student, I've learned the importance of harnessing my diverse experience to use as fuel to propel me forward. 

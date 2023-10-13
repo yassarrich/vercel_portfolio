@@ -61,7 +61,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5 text-white">
-            I am always eager to learn and expand my horizons, Please don't hesitate to reach out to me if you have any opportunities or ideas for collaboration.
+            I am always eager to network with other professionals in the field, Please don't hesitate to reach out to me if you have any opportunities or ideas for collaboration.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
