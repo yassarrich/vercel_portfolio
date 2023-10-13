@@ -22,7 +22,7 @@ export default function Skills() {
             Skills
           </h1>
           <p className=" text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Due to rapid changes in the state of our industry, I actively try to stay abreast with emerging trends in the tech industry. My work experience, coupled with the classes i've taken, has exposed me to the following technologies.
+          Due to rapid changes in the state of our industry, I actively stay abreast with emerging trends in the tech industry. My work experience, coupled with the classes i've taken, has exposed me to the following technologies.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
