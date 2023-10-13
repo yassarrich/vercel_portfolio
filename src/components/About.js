@@ -1,7 +1,6 @@
 // src/components/About.js
 import { TypeAnimation } from 'react-type-animation';
 import React from "react";
-import {Link} from 'react-scroll'
 
 import {
   AiFillLinkedin, 
@@ -32,9 +31,9 @@ export default function About() {
         <br className="hidden lg:inline-block" /> 
           </h1>
           <p className="mb-3 mt-3 leading-relaxed text-white">
-          I'm a Computer Science student who is passionate about leveraging my skills to develop cutting-edge solutions for various needs.</p>
+          Forward-thinking and Innovative, I am passionate about leveraging my skills to develop cutting-edge solutions for various needs.</p>
           <p className="mb-1 leading-relaxed text-white">
-          I'm open to Full-Time Software Development positions upon completion of my Bachelor's degree in December 2023.</p>
+          I am open to full-time positions upon completion of my Bachelor's degree in December 2023.</p>
           
         <div className="flex justify-center gap-5 pt-5 text-white">
           <div className="text-5xl">

@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Quote from '@/components/Quote';
 import About from '@/components/About';
+import Desc from '@/components/Desc';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
@@ -27,6 +28,9 @@ export default function Home() {
       <Quote></Quote>
         <div id="#about">
           <About></About>
+        </div>
+        <div id="#description">
+          <Desc></Desc>
         </div>
         <div id="#experience">
           <Timeline></Timeline>
