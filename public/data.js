@@ -14,7 +14,7 @@ export const projects = [
       },
       {
         title: "Real Estate Society @ FSU",
-        status:"In Beta",
+        status:"Complete",
         subtitle: "Website",
         description:
           "A website I built for the Real Estate Society at FSU, meant to showcase the organization and increase their online presence",
